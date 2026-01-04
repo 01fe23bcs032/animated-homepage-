@@ -94,7 +94,7 @@ body {
 
 .subheading {
     margin-top: 40px;
-    font-size: 5.4rem;
+    font-size: 3.4rem;
     opacity: 0.95;
 }
 .main-title {
@@ -114,7 +114,7 @@ body {
 
 .intro {
     max-width: 900px;
-    margin: 0 auto 30px;   /* SPACE BELOW INTRO */
+    margin: 0 auto 20px;   /* SPACE BELOW INTRO */
     font-size: 1.1rem;
     line-height: 1.8;
     opacity: 0.9;
