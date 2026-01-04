@@ -1,178 +1,234 @@
+/* =========================
+   GLOBAL RESET
+   ========================= */
+
+/* Removes default browser margin & padding
+   box-sizing ensures padding/border don't affect width/height
+   font-family sets font for entire website */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Georgia', sans-serif;
+    font-family: 'Georgia', sans-serif; /* You can change font here */
 }
 
+/* =========================
+   BODY STYLING
+   ========================= */
+
+/* Gradient background for full page
+   text color set to white
+   overflow-x hidden prevents horizontal scroll */
 body {
-    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* Change colors here if needed */
     color: white;
     overflow-x: hidden;
 }
 
-/* NAVBAR */
+/* =========================
+   NAVIGATION BAR
+   ========================= */
+
+/* Fixed navbar stays on top while scrolling */
 .navbar {
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 15px 40px;
-    background: rgba(0, 0, 0, 0.4);
-    backdrop-filter: blur(10px);
+    padding: 15px 40px; /* Vertical | Horizontal spacing */
+    background: rgba(0, 0, 0, 0.4); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Glassmorphism effect */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Logo left, links right */
     align-items: center;
-    z-index: 1000;
+    z-index: 1000; /* Keeps navbar above all content */
 }
 
+/* Your name/logo text */
 .nav-logo {
-    font-size: 1.2rem;
+    font-size: 1.2rem; /* Increase to make name bigger */
     font-weight: bold;
 }
 
+/* Removes bullets and arranges nav items horizontally */
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 20px; /* Space between links */
 }
 
+/* Navbar links style */
 .nav-links a {
-    text-decoration: none;
+    text-decoration: none; /* Removes underline */
     color: white;
     font-size: 0.9rem;
-    opacity: 0.85;
-    transition: opacity 0.3s ease;
+    opacity: 0.85; /* Slight fade */
+    transition: opacity 0.3s ease; /* Smooth hover effect */
 }
 
+/* Hover effect for navbar links */
 .nav-links a:hover {
     opacity: 1;
 }
 
-/* FLOATING ICONS */
+/* =========================
+   FLOATING BACKGROUND ICONS
+   ========================= */
+
+/* Styles for floating emoji icons */
 .floating-icons span {
-    position: absolute;
+    position: absolute; /* Allows free movement */
     font-size: 2rem;
-    opacity: 0.15;
-    animation: float 15s linear infinite;
+    opacity: 0.15; /* Light background look */
+    animation: float 15s linear infinite; /* Continuous floating */
 }
 
+/* Position + delay for each icon */
 .floating-icons span:nth-child(1) { left: 10%; animation-delay: 0s; }
 .floating-icons span:nth-child(2) { left: 30%; animation-delay: 3s; }
 .floating-icons span:nth-child(3) { left: 50%; animation-delay: 6s; }
 .floating-icons span:nth-child(4) { left: 70%; animation-delay: 9s; }
 .floating-icons span:nth-child(5) { left: 90%; animation-delay: 12s; }
 
+/* Defines floating animation */
 @keyframes float {
-    from { top: 100%; }
-    to { top: -20%; }
+    from { top: 100%; } /* Start below screen */
+    to { top: -20%; }  /* Exit above screen */
 }
 
-/* HERO */
+/* =========================
+   HERO SECTION
+   ========================= */
+
+/* Main hero container */
 .hero {
-    min-height: 100vh;
-    padding: 140px 20px 60px;
+    min-height: 100vh; /* Full screen height */
+    padding: 140px 20px 60px; /* Top padding avoids navbar overlap */
     text-align: center;
-    animation: fadeUp 1.5s ease;
+    animation: fadeUp 1.5s ease; /* Entry animation */
 }
 
+/* Default h1 inside hero */
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 20px;
 }
 
+/* Highlighted text color */
 .hero h1 span {
-    color: #ffd369;
+    color: #ffd369; /* Accent color */
 }
 
-.intro {
-    max-width: 850px;
-    margin: auto;
-    font-size: 1.1rem;
-    line-height: 1.7;
-    opacity: 0.9;
-}
+/* =========================
+   MAIN TITLE
+   ========================= */
 
-.subheading {
-    margin-top: 40px;
-    font-size: 2.4rem;
-    opacity: 0.95;
-}
+/* Big portfolio heading */
 .main-title {
-    font-size: 2.2rem;
-    margin-bottom: 30px;   /* BIG SPACE */
+    font-size: 2.2rem; /* Increase for more impact */
+    margin-bottom: 20px; /* Space below heading */
     letter-spacing: 1px;
 }
 
+/* =========================
+   NAME SECTION
+   ========================= */
+
+/* Your name text */
 .name {
-    font-size: 2.0rem;
+    font-size: 1.7rem;
     margin-bottom: 20px;
 }
 
+/* Highlight your name */
 .name span {
     color: #ffd369;
 }
 
+/* =========================
+   INTRO PARAGRAPH
+   ========================= */
+
+/* Intro text block */
 .intro {
-    max-width: 900px;
-    margin: 0 auto 20px;   /* SPACE BELOW INTRO */
+    max-width: 900px; /* Keeps text readable */
+    margin: 0 auto 20px; /* Centers text + bottom spacing */
     font-size: 1.1rem;
-    line-height: 1.8;
+    line-height: 1.8; /* Improves readability */
     opacity: 0.9;
 }
 
+/* =========================
+   "WHAT YOU'LL FIND HERE"
+   ========================= */
+
+/* Subheading text */
 .subheading {
-    margin-top: 100px;
+    margin-top: 60px; /* BIG SPACE from intro */
     margin-bottom: 20px;
-    font-size: 4.5rem;
+    font-size: 2.5rem; /* VERY LARGE – reduce if too big */
 }
 
+/* Description list below subheading */
 .find-text {
     max-width: 800px;
-    margin: 0 auto 40px;
+    margin: 0 auto 40px; /* Space before buttons */
     font-size: 1.05rem;
     line-height: 1.8;
     opacity: 0.85;
 }
 
-/* BUTTONS */
+/* =========================
+   BUTTONS
+   ========================= */
+
+/* Button container */
 .hero-buttons {
     margin-top: 30px;
 }
 
+/* Individual button styling */
 .hero-buttons a {
     text-decoration: none;
     color: white;
     border: 1px solid white;
-    padding: 12px 25px;
+    padding: 12px 25px; /* Button size */
     margin: 10px;
-    border-radius: 30px;
+    border-radius: 30px; /* Rounded buttons */
     transition: all 0.3s ease;
 }
 
+/* Button hover effect */
 .hero-buttons a:hover {
     background: white;
     color: #203a43;
 }
 
-/* FEATURES */
+/* =========================
+   FEATURES SECTION
+   ========================= */
+
+/* Background section for cards */
 .features {
     padding: 80px 10%;
     background: rgba(255, 255, 255, 0.03);
     backdrop-filter: blur(10px);
 }
 
+/* Section heading */
 .features h2 {
     text-align: center;
     font-size: 2.2rem;
     margin-bottom: 50px;
 }
 
+/* Card grid layout */
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 25px;
 }
 
+/* Individual card */
 .card {
     background: rgba(255, 255, 255, 0.12);
     padding: 30px;
@@ -180,22 +236,29 @@ body {
     transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
+/* Card hover animation */
 .card:hover {
     transform: translateY(-10px);
     box-shadow: 0 20px 40px rgba(0,0,0,0.3);
 }
 
-/* TECH */
+/* =========================
+   TECHNOLOGY STACK
+   ========================= */
+
+/* Tech section container */
 .tech {
     padding: 80px 10%;
     text-align: center;
 }
 
+/* Tech heading */
 .tech h2 {
     font-size: 2rem;
     margin-bottom: 30px;
 }
 
+/* Individual tech pill */
 .tech-list span {
     display: inline-block;
     margin: 10px;
@@ -205,19 +268,33 @@ body {
     transition: background 0.3s ease;
 }
 
+/* Hover effect on tech pills */
 .tech-list span:hover {
     background: rgba(255,255,255,0.35);
 }
 
-/* FOOTER */
+/* =========================
+   FOOTER
+   ========================= */
+
 footer {
     text-align: center;
     padding: 20px;
     opacity: 0.7;
 }
 
-/* ANIMATION */
+/* =========================
+   ANIMATIONS
+   ========================= */
+
+/* Fade + slide animation on load */
 @keyframes fadeUp {
-    from { opacity: 0; transform: translateY(40px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
