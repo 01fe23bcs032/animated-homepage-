@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Georgia', sans-serif;
 }
 
 body {
@@ -94,18 +94,18 @@ body {
 
 .subheading {
     margin-top: 40px;
-    font-size: 3.4rem;
+    font-size: 2.4rem;
     opacity: 0.95;
 }
 .main-title {
-    font-size: 3.2rem;
-    margin-bottom: 60px;   /* BIG SPACE */
+    font-size: 2.2rem;
+    margin-bottom: 30px;   /* BIG SPACE */
     letter-spacing: 1px;
 }
 
 .name {
-    font-size: 2.2rem;
-    margin-bottom: 30px;
+    font-size: 2.0rem;
+    margin-bottom: 20px;
 }
 
 .name span {
