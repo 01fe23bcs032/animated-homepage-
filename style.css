@@ -69,7 +69,6 @@ body {
 .nav-links a:hover {
     opacity: 1;
 }
-
 .navbar {
     display: none;
 }
@@ -106,7 +105,7 @@ body {
 /* Main hero container */
 .hero {
     min-height: 100vh; /* Full screen height */
-    padding: 140px 20px 60px; /* Top padding avoids navbar overlap */
+    padding: 80px 20px 60px; /* Top padding avoids navbar overlap */
     text-align: center;
     animation: fadeUp 1.5s ease; /* Entry animation */
 }
