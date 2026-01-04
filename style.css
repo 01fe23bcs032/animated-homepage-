@@ -9,7 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Georgia', sans-serif; /* You can change font here */
+    font-family: 'Lora', sans-serif; /* You can change font here */
 }
 
 /* =========================
@@ -124,7 +124,7 @@ body {
 
 /* Big portfolio heading */
 .main-title {
-    font-size: 2.2rem; /* Increase for more impact */
+    font-size: 1.8rem; /* Increase for more impact */
     margin-bottom: 20px; /* Space below heading */
     letter-spacing: 1px;
 }
@@ -135,7 +135,7 @@ body {
 
 /* Your name text */
 .name {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     margin-bottom: 20px;
 }
 
@@ -152,7 +152,7 @@ body {
 .intro {
     max-width: 900px; /* Keeps text readable */
     margin: 0 auto 20px; /* Centers text + bottom spacing */
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     line-height: 1.8; /* Improves readability */
     opacity: 0.9;
 }
@@ -163,16 +163,16 @@ body {
 
 /* Subheading text */
 .subheading {
-    margin-top: 60px; /* BIG SPACE from intro */
+    margin-top: 40px; /* BIG SPACE from intro */
     margin-bottom: 20px;
-    font-size: 2.5rem; /* VERY LARGE – reduce if too big */
+    font-size: 1.2rem; /* VERY LARGE – reduce if too big */
 }
 
 /* Description list below subheading */
 .find-text {
     max-width: 800px;
     margin: 0 auto 40px; /* Space before buttons */
-    font-size: 1.05rem;
+    font-size: 0.9rem;
     line-height: 1.8;
     opacity: 0.85;
 }
@@ -217,7 +217,7 @@ body {
 /* Section heading */
 .features h2 {
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 1.2rem;
     margin-bottom: 50px;
 }
 
@@ -225,13 +225,13 @@ body {
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 25px;
+    gap: 20px;
 }
 
 /* Individual card */
 .card {
     background: rgba(255, 255, 255, 0.12);
-    padding: 30px;
+    padding: 20px;
     border-radius: 20px;
     transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
