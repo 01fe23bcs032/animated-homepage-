@@ -124,7 +124,7 @@ body {
 
 /* Big portfolio heading */
 .main-title {
-    font-size: 1.8rem; /* Increase for more impact */
+    font-size: 2.0rem; /* Increase for more impact */
     margin-bottom: 20px; /* Space below heading */
     letter-spacing: 1px;
 }
@@ -135,7 +135,7 @@ body {
 
 /* Your name text */
 .name {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-bottom: 20px;
 }
 
@@ -152,7 +152,7 @@ body {
 .intro {
     max-width: 900px; /* Keeps text readable */
     margin: 0 auto 20px; /* Centers text + bottom spacing */
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     line-height: 1.8; /* Improves readability */
     opacity: 0.9;
 }
@@ -165,14 +165,14 @@ body {
 .subheading {
     margin-top: 40px; /* BIG SPACE from intro */
     margin-bottom: 20px;
-    font-size: 1.0rem; /* VERY LARGE – reduce if too big */
+    font-size: 1.2rem; /* VERY LARGE – reduce if too big */
 }
 
 /* Description list below subheading */
 .find-text {
     max-width: 800px;
     margin: 0 auto 40px; /* Space before buttons */
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     line-height: 1.8;
     opacity: 0.85;
 }
@@ -240,12 +240,14 @@ body {
 .card h3 {
     font-size: 1.2rem;    /* Card heading size */
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .card p {
     font-size: 0.9rem;  /* Card description size */
     line-height: 1.6;
     opacity: 0.9;
+    text-align: center;
 }
 
 
