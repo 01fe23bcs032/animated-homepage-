@@ -9,7 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lora', sans-serif; /* You can change font here */
+    font-family: 'Georgia', sans-serif; /* You can change font here */
 }
 
 /* =========================
@@ -109,7 +109,7 @@ body {
 
 /* Default h1 inside hero */
 .hero h1 {
-    font-size: 2.8rem;
+    font-size: 3.8rem;
     margin-bottom: 20px;
 }
 
@@ -124,7 +124,7 @@ body {
 
 /* Big portfolio heading */
 .main-title {
-    font-size: 2.0rem; /* Increase for more impact */
+    font-size: 2.2rem; /* Increase for more impact */
     margin-bottom: 20px; /* Space below heading */
     letter-spacing: 1px;
 }
@@ -135,7 +135,7 @@ body {
 
 /* Your name text */
 .name {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-bottom: 20px;
 }
 
@@ -163,16 +163,16 @@ body {
 
 /* Subheading text */
 .subheading {
-    margin-top: 40px; /* BIG SPACE from intro */
+    margin-top: 70px; /* BIG SPACE from intro */
     margin-bottom: 20px;
-    font-size: 1.2rem; /* VERY LARGE – reduce if too big */
+    font-size: 1.5rem; 
 }
 
 /* Description list below subheading */
 .find-text {
     max-width: 800px;
     margin: 0 auto 40px; /* Space before buttons */
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     line-height: 1.8;
     opacity: 0.85;
 }
@@ -217,7 +217,7 @@ body {
 /* Section heading */
 .features h2 {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     margin-bottom: 50px;
 }
 
