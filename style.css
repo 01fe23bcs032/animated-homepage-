@@ -114,7 +114,7 @@ body {
 
 .intro {
     max-width: 900px;
-    margin: 0 auto 50px;   /* SPACE BELOW INTRO */
+    margin: 0 auto 30px;   /* SPACE BELOW INTRO */
     font-size: 1.1rem;
     line-height: 1.8;
     opacity: 0.9;
