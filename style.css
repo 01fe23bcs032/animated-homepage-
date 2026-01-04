@@ -109,7 +109,7 @@ body {
 
 /* Default h1 inside hero */
 .hero h1 {
-    font-size: 3rem;
+    font-size: 2.8rem;
     margin-bottom: 20px;
 }
 
@@ -231,10 +231,23 @@ body {
 /* Individual card */
 .card {
     background: rgba(255, 255, 255, 0.12);
-    padding: 20px;
-    border-radius: 25px;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;   /* Center heading + text */
     transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
+
+.card h3 {
+    font-size: 1.2rem;    /* Card heading size */
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 0.9rem;  /* Card description size */
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
 
 /* Card hover animation */
 .card:hover {
