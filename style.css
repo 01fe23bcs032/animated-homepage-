@@ -70,6 +70,10 @@ body {
     opacity: 1;
 }
 
+.navbar {
+    display: none;
+}
+
 /* =========================
    FLOATING BACKGROUND ICONS
    ========================= */
